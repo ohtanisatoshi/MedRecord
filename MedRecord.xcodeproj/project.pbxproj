@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		743556081AB551E00052FB65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 743556071AB551E00052FB65 /* main.m */; };
+		7435560B1AB551E00052FB65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7435560A1AB551E00052FB65 /* AppDelegate.m */; };
+		7435560E1AB551E00052FB65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7435560D1AB551E00052FB65 /* ViewController.m */; };
+		743556111AB551E00052FB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7435560F1AB551E00052FB65 /* Main.storyboard */; };
+		743556131AB551E00052FB65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743556121AB551E00052FB65 /* Images.xcassets */; };
+		743556161AB551E00052FB65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 743556141AB551E00052FB65 /* LaunchScreen.xib */; };
+		743556221AB551E10052FB65 /* MedRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743556211AB551E10052FB65 /* MedRecordTests.m */; };
+		743556301AB558D90052FB65 /* Medicine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7435562F1AB558D90052FB65 /* Medicine.m */; };
+		743556331AB577080052FB65 /* AddMedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743556321AB577080052FB65 /* AddMedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7435561C1AB551E10052FB65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 743555FA1AB551E00052FB65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 743556011AB551E00052FB65;
+			remoteInfo = MedRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		743556021AB551E00052FB65 /* MedRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		743556061AB551E00052FB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743556071AB551E00052FB65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		743556091AB551E00052FB65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7435560A1AB551E00052FB65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7435560C1AB551E00052FB65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7435560D1AB551E00052FB65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		743556101AB551E00052FB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		743556121AB551E00052FB65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		743556151AB551E00052FB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7435561B1AB551E10052FB65 /* MedRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		743556201AB551E10052FB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743556211AB551E10052FB65 /* MedRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedRecordTests.m; sourceTree = "<group>"; };
+		7435562E1AB558D90052FB65 /* Medicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medicine.h; sourceTree = "<group>"; };
+		7435562F1AB558D90052FB65 /* Medicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medicine.m; sourceTree = "<group>"; };
+		743556311AB577080052FB65 /* AddMedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMedViewController.h; sourceTree = "<group>"; };
+		743556321AB577080052FB65 /* AddMedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		743555FF1AB551E00052FB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743556181AB551E10052FB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		743555F91AB551E00052FB65 = {
+			isa = PBXGroup;
+			children = (
+				743556041AB551E00052FB65 /* MedRecord */,
+				7435561E1AB551E10052FB65 /* MedRecordTests */,
+				743556031AB551E00052FB65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		743556031AB551E00052FB65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				743556021AB551E00052FB65 /* MedRecord.app */,
+				7435561B1AB551E10052FB65 /* MedRecordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		743556041AB551E00052FB65 /* MedRecord */ = {
+			isa = PBXGroup;
+			children = (
+				743556091AB551E00052FB65 /* AppDelegate.h */,
+				7435560A1AB551E00052FB65 /* AppDelegate.m */,
+				7435560C1AB551E00052FB65 /* ViewController.h */,
+				7435560D1AB551E00052FB65 /* ViewController.m */,
+				7435560F1AB551E00052FB65 /* Main.storyboard */,
+				743556311AB577080052FB65 /* AddMedViewController.h */,
+				743556321AB577080052FB65 /* AddMedViewController.m */,
+				743556121AB551E00052FB65 /* Images.xcassets */,
+				743556141AB551E00052FB65 /* LaunchScreen.xib */,
+				743556051AB551E00052FB65 /* Supporting Files */,
+				7435562E1AB558D90052FB65 /* Medicine.h */,
+				7435562F1AB558D90052FB65 /* Medicine.m */,
+			);
+			path = MedRecord;
+			sourceTree = "<group>";
+		};
+		743556051AB551E00052FB65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				743556061AB551E00052FB65 /* Info.plist */,
+				743556071AB551E00052FB65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7435561E1AB551E10052FB65 /* MedRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				743556211AB551E10052FB65 /* MedRecordTests.m */,
+				7435561F1AB551E10052FB65 /* Supporting Files */,
+			);
+			path = MedRecordTests;
+			sourceTree = "<group>";
+		};
+		7435561F1AB551E10052FB65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				743556201AB551E10052FB65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		743556011AB551E00052FB65 /* MedRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743556251AB551E10052FB65 /* Build configuration list for PBXNativeTarget "MedRecord" */;
+			buildPhases = (
+				743555FE1AB551E00052FB65 /* Sources */,
+				743555FF1AB551E00052FB65 /* Frameworks */,
+				743556001AB551E00052FB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedRecord;
+			productName = MedRecord;
+			productReference = 743556021AB551E00052FB65 /* MedRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7435561A1AB551E10052FB65 /* MedRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743556281AB551E10052FB65 /* Build configuration list for PBXNativeTarget "MedRecordTests" */;
+			buildPhases = (
+				743556171AB551E10052FB65 /* Sources */,
+				743556181AB551E10052FB65 /* Frameworks */,
+				743556191AB551E10052FB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7435561D1AB551E10052FB65 /* PBXTargetDependency */,
+			);
+			name = MedRecordTests;
+			productName = MedRecordTests;
+			productReference = 7435561B1AB551E10052FB65 /* MedRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		743555FA1AB551E00052FB65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Satoshi Ohtani";
+				TargetAttributes = {
+					743556011AB551E00052FB65 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7435561A1AB551E10052FB65 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 743556011AB551E00052FB65;
+					};
+				};
+			};
+			buildConfigurationList = 743555FD1AB551E00052FB65 /* Build configuration list for PBXProject "MedRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 743555F91AB551E00052FB65;
+			productRefGroup = 743556031AB551E00052FB65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				743556011AB551E00052FB65 /* MedRecord */,
+				7435561A1AB551E10052FB65 /* MedRecordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		743556001AB551E00052FB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743556111AB551E00052FB65 /* Main.storyboard in Resources */,
+				743556161AB551E00052FB65 /* LaunchScreen.xib in Resources */,
+				743556131AB551E00052FB65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743556191AB551E10052FB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		743555FE1AB551E00052FB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7435560E1AB551E00052FB65 /* ViewController.m in Sources */,
+				743556331AB577080052FB65 /* AddMedViewController.m in Sources */,
+				7435560B1AB551E00052FB65 /* AppDelegate.m in Sources */,
+				743556081AB551E00052FB65 /* main.m in Sources */,
+				743556301AB558D90052FB65 /* Medicine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743556171AB551E10052FB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743556221AB551E10052FB65 /* MedRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7435561D1AB551E10052FB65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 743556011AB551E00052FB65 /* MedRecord */;
+			targetProxy = 7435561C1AB551E10052FB65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7435560F1AB551E00052FB65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743556101AB551E00052FB65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		743556141AB551E00052FB65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743556151AB551E00052FB65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		743556231AB551E10052FB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		743556241AB551E10052FB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		743556261AB551E10052FB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		743556271AB551E10052FB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		743556291AB551E10052FB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MedRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedRecord.app/MedRecord";
+			};
+			name = Debug;
+		};
+		7435562A1AB551E10052FB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MedRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedRecord.app/MedRecord";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		743555FD1AB551E00052FB65 /* Build configuration list for PBXProject "MedRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743556231AB551E10052FB65 /* Debug */,
+				743556241AB551E10052FB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743556251AB551E10052FB65 /* Build configuration list for PBXNativeTarget "MedRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743556261AB551E10052FB65 /* Debug */,
+				743556271AB551E10052FB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		743556281AB551E10052FB65 /* Build configuration list for PBXNativeTarget "MedRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743556291AB551E10052FB65 /* Debug */,
+				7435562A1AB551E10052FB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 743555FA1AB551E00052FB65 /* Project object */;
+}
